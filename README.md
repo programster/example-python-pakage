@@ -8,8 +8,17 @@ E.g. the package name, description, version etc.
 
 ## Installation
 
+You can install using this repository as a URL you pass to pip with (this is assuming you have set up an SSH key with GitHub):
+
 ```bash
-pip install helloworld
+python3 -m pip install \
+  git+ssh://git@github.com:22/programster/example-python-pakage.git
+```
+
+If you publish to PyPi, then you would be able to install with:
+
+```bash
+python3 -m pip install helloworld
 ```
 
 ## Usage
