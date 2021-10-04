@@ -64,7 +64,7 @@ setup(
     author_email=authorEmail,
     url=url,
     packages = ["britney"],
-    package_dir = {"britney" : "src"},
+    package_dir = {"britney" : "src/britney"},
     package_data = {
         'britney': ["data/*.jpg"],
     },
