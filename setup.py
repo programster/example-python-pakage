@@ -63,11 +63,16 @@ setup(
     author=authorName,
     author_email=authorEmail,
     url=url,
+    package_dir = "src",
     packages = ["britney"],
     classifiers = classifiers,
     install_requires = requirements,
     extras_require = {
         "dev": devDependencies
     },
-    zip_safe=False
+    zip_safe=False,
+    include_package_data=True,
+    package_data={
+        'britney': ['package_data.dat'],
+    },
 )

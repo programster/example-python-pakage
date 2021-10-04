@@ -1,7 +1,7 @@
 # Example Python Package
 
 An example python package built from watching [this talk](https://blog.programster.org/lecture-publishing-perfect-python-packages-on-pypi#).
-
+and also taking ["How to add additional files to a wheel"](How do you add additional files to a wheel?) into account.
 Edit the info in setup.py for the metadata of the package. 
 E.g. the package name, description, version etc.
 
