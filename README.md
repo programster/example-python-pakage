@@ -23,13 +23,10 @@ python3 -m pip install helloworld
 
 ## Usage
 ```python
-from helloworld import sayHello
-
-# Generate "Hello world!"
-sayHello()
+from britney import run
 
 # Generate "Hello, Bob!"
-sayHello("Bob")
+run()
 ```
 
 

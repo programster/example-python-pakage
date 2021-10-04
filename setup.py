@@ -9,7 +9,7 @@ version = '0.0.1'
 
 
 # Specify the name for the package.
-packageName = 'helloworld'
+packageName = 'britney'
 
 
 # Give a description for the package.
@@ -63,11 +63,11 @@ setup(
     author=authorName,
     author_email=authorEmail,
     url=url,
-    py_modules = ["helloworld"],
-    package_dir = {'': 'src'},
+    packages = ["britney"],
     classifiers = classifiers,
     install_requires = requirements,
     extras_require = {
         "dev": devDependencies
-    }
+    },
+    zip_safe=False
 )
