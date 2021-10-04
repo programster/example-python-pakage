@@ -12,7 +12,7 @@ You can install using this repository as a URL you pass to pip with (this is ass
 
 ```bash
 python3 -m pip install \
-  git+ssh://git@github.com:22/programster/example-python-pakage.git
+  git+ssh://git@github.com:22/programster/example-python-pakage.git@alternative-with-binary-includes
 ```
 
 If you publish to PyPi, then you would be able to install with:
@@ -25,7 +25,7 @@ python3 -m pip install helloworld
 ```python
 from britney import run
 
-# Generate "Hello, Bob!"
+# Copies britney.jpg file to wherever you are.
 run()
 ```
 
